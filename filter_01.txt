@@ -18,3 +18,28 @@
 ||Loc.sc-jpl.com^ 
 ||Storage.googleapis.com^ 
 ||Snapchat-proxy.appspot.com^
+
+! Title: Norske annonser – DNS
+! Author: Samoht89
+
+||doubleclick.net^
+||googlesyndication.com^
+||adnxs.com^
+||rubiconproject.com^
+||criteo.com^
+||taboola.com^
+||outbrain.com^
+
+||static.schibsted.com^
+||ads.schibsted.no^
+||ads.vg.no^
+||tracking.schibsted.io^
+
+
+! VG annonseblokker
+vg.no##div[class*="ad"]
+vg.no##div[id*="ad"]
+vg.no##section[class*="ad"]
+vg.no##iframe[src*="ads"]
+vg.no##.commercial
+vg.no##.ad-container
