@@ -34,12 +34,3 @@
 ||ads.schibsted.no^
 ||ads.vg.no^
 ||tracking.schibsted.io^
-
-
-! VG annonseblokker
-vg.no##div[class*="ad"]
-vg.no##div[id*="ad"]
-vg.no##section[class*="ad"]
-vg.no##iframe[src*="ads"]
-vg.no##.commercial
-vg.no##.ad-container
